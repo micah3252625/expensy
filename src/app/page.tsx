@@ -1,5 +1,6 @@
 import Header from "@/app/Components/MainPage/Header";
 import SubHeader from "@/app/Components/MainPage/SubHeader";
+import AllExpenses from "@/app/Components/MainPage/AllExpenses";
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <div className="w-[59%] relative max-lg:w-[93%] h-[760px] bg-white shadow-lg rounded-2xl p-12 px-[52px]">
                 <Header />
                 <SubHeader />
+                <AllExpenses />
             </div>
         </div>
     );
