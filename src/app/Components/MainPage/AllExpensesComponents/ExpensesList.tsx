@@ -4,6 +4,9 @@ const ExpensesList = () => {
     return (
         <div className="flex p-1 mt-4 items-center flex-col gap-5 h-[400px] overflow-y-auto">
             <SingleExpense />
+            <SingleExpense />
+            <SingleExpense />   
+            <SingleExpense />
         </div>
     )
 }
