@@ -2,7 +2,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined"
 
 const SearchBar = () => {
     return (
-        <div className={`h-[46px] bg-slate-50 flex items-center text-sm rounded-md pl-3 gap-1 w-[300px]`}>
+        <div className={`h-[46px] bg-slate-50 flex items-center text-sm rounded-md pl-3 gap-1 w-[300px] max-sm:w-[220px]`}>
             <div>
                 <SearchOutlinedIcon className="text-slate-400"/>
             </div>

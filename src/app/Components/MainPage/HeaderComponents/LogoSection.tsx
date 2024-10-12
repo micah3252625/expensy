@@ -12,10 +12,10 @@ const LogoSection = () => {
                 </div>
             </div>
             {/*App Name*/}
-            <div className="flex gap-1 text-[24px]">
+            <div className="flex gap-1 text-[24px] max-sm:hidden">
                 <span className={`font-bold text-green-600`}>Expensy</span>
                 |
-                <span className="text-slate-600">Wise Expense Tracker</span>
+                {/* <span className="text-slate-600">Wise Expense Tracker</span> */}
             </div>
         </div>
     );
